@@ -1,0 +1,297 @@
+07-28 10:29:05.530  3836  5566 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainActivity does not exist in mServices
+07-28 10:29:05.530  3836  5566 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainActivity does not exist in mProviders
+07-28 10:29:05.530  3836  5566 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainActivity does not exist in mReceivers
+07-28 10:29:05.536  5181  1695 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:05.539  3836  5566 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@26a99d0}
+07-28 10:29:05.539  5181  1695 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:05.542  5181  1695 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:05.615   765   765 I SurfaceFlinger:      Device | 0x758bbc0e00 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |    0    1 1439 2560 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:29:05.819   765   765 I SurfaceFlinger:      Device | 0x758bbc0e00 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |   33   58 1407 2501 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:29:06.086   765  2697 I SurfaceFlinger: id=133 Removed com.aretherecookies/com.aretherecookies.MainActivity#0 (4/5)
+07-28 10:29:06.097   765   765 I Layer   : id=133 onRemoved com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:29:06.168 13088 13088 D InputEventReceiver: channel 'b7b21f7 com.aretherecookies/com.aretherecookies.MainActivity (client)' ~ Disposing input event receiver.
+07-28 10:29:06.169 13088 13088 D InputEventReceiver: channel 'b7b21f7 com.aretherecookies/com.aretherecookies.MainActivity (client)' ~NativeInputEventReceiver.
+07-28 10:29:16.072 13627 13699 W         : Could not find info about application com.aretherecookies which lost focus - ignoring
+07-28 10:29:19.676  3836  6975 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainActivity does not exist in mServices
+07-28 10:29:19.676  3836  6975 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainActivity does not exist in mProviders
+07-28 10:29:19.676  3836  6975 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainActivity does not exist in mReceivers
+07-28 10:29:19.690  5181  5229 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:19.690  3836 14451 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@7031946}
+07-28 10:29:19.691  5181  5229 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:19.695  5181  5229 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:27.719  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:27.719  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:27.719  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:27.719  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:27.720 13986 14171 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:27.720  3836  6749 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@e95c0a4}
+07-28 10:29:27.720 13986 14171 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:27.723 13986 14171 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:31.181  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:31.181  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:31.181  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:31.181  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:31.181 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:31.182  3836  6749 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@1d1718b}
+07-28 10:29:31.182 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:31.185 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:31.395  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:31.395  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:31.395  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:31.396  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:31.396 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:31.396  3836  3855 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@7439344}
+07-28 10:29:31.397 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:31.400 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:32.119  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:32.119  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:32.119  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:32.119  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:32.120 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:32.121  3836  6749 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@c7f9509}
+07-28 10:29:32.121 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:32.125 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:32.437  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:32.437  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:32.437  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:32.437  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:32.438 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:32.439  3836  3855 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@fb1630e}
+07-28 10:29:32.440 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:32.445 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:35.067 13986 13986 D InstalledAppDetails: Stopping package com.aretherecookies
+07-28 10:29:35.091 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:35.152 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:35.160  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:35.160  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:35.161  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:35.161  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:35.168 13986 14171 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:35.168  3836  5286 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@2d4fb7d}
+07-28 10:29:35.169 13986 14171 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:35.172 13986 14171 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:35.205  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:35.205  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:35.205  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:35.205  3836  5286 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:35.205 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:35.205  3836  5286 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@8fd5a72}
+07-28 10:29:35.206 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:35.211 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:35.294 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:35.328  3836  3855 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:35.328  3836  3855 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:35.328  3836  3855 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:35.328  3836  3855 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:35.328 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:35.329  3836  5286 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@b2b341f}
+07-28 10:29:35.329 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:35.331 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:35.379 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:35.390 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:35.416 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:41.284 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:41.323  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:41.324  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:41.324  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:41.324  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:41.331 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:41.331  3836  7284 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@9a13e94}
+07-28 10:29:41.331 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:41.335 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:41.748 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:44.742  3836  6975 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:44.742  3836  6975 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:44.742  3836  6975 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:44.742  3836  6975 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:44.742 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:44.743  3836  6975 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@a3970eb}
+07-28 10:29:44.743 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:44.745 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:46.138 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:46.181  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:46.181  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:46.181  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:46.181  3836  6749 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:46.182 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:46.182  3836  9733 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@e035cc0}
+07-28 10:29:46.183 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:46.187 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:46.275 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:46.284 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:46.333  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:46.333  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:46.333  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:46.333  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:46.333 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:46.333  3836  7278 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@a88a13e}
+07-28 10:29:46.334 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:46.336 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:46.435 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:46.478  3836  8149 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:46.478  3836  8149 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:46.478  3836  8149 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:46.478  3836  8149 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:46.478 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:46.478  3836  9733 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@2497f97}
+07-28 10:29:46.479 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:46.481 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:46.526 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:46.596 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:47.413  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:47.413  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:47.413  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:47.413  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:47.413 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:47.414  3836  7278 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@775f0}
+07-28 10:29:47.414 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:47.417 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:53.435 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:53.463  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:53.463  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:53.463  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:53.463  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:53.464 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:53.464  3836  6041 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@6aea603}
+07-28 10:29:53.465 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:53.468 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:53.545 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:53.597  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:53.597  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:53.597  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:53.597  3836  7278 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:53.597 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:53.598  3836  8149 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@541fbb9}
+07-28 10:29:53.598 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:53.600 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:53.642 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:53.707 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:53.746  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:53.746  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:53.746  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:53.746  3836 12439 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:53.746 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:53.747  3836  6041 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@b1e4cd6}
+07-28 10:29:53.748 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:53.750 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:53.785 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:53.801 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:29:54.860 13986 13986 D InstalledAppDetails: Sending broadcast to query restart status for com.aretherecookies
+07-28 10:29:54.904  3836  6041 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mActivities
+07-28 10:29:54.904  3836  6041 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mServices
+07-28 10:29:54.904  3836  6041 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mProviders
+07-28 10:29:54.904  3836  6041 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainApplication does not exist in mReceivers
+07-28 10:29:54.905 13986 13986 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:29:54.905  3836  8149 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@3fb8dc3}
+07-28 10:29:54.906 13986 13986 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:29:54.909 13986 13986 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:29:55.226 13986 13986 D InstalledAppDetails: Got broadcast response: Restart status for com.aretherecookies false
+07-28 10:30:06.063  3836  4840 D ViewRootImpl@eeab2b9[aretherecookies]: setView = DecorView@cb4ae5f[aretherecookies] TM=true MM=false
+07-28 10:30:06.084  3836  8149 I ApplicationPolicy: isApplicationExternalStorageWhitelisted:com.aretherecookies user:0
+07-28 10:30:06.084  3836  8149 I ApplicationPolicy: isApplicationExternalStorageBlacklisted:com.aretherecookies user:0
+07-28 10:30:06.090  3836  4840 D ViewRootImpl@eeab2b9[aretherecookies]: dispatchAttachedToWindow
+07-28 10:30:06.098   765   765 I SurfaceFlinger: id=153 createSurf (1440x2560),1 flag=404, Splash Screen com.aretherecookies#0
+07-28 10:30:06.109  3836  4840 D ViewRootImpl@eeab2b9[aretherecookies]: Relayout returned: old=[0,0][0,0] new=[0,0][1440,2560] result=0x7 surface={valid=true 525711900672} changed=true
+07-28 10:30:06.162 14560 14560 I SELinux : SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=com.aretherecookies
+07-28 10:30:06.361   765   765 I SurfaceFlinger:      Device | 0x758bbc0c00 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |  181  600 1143 2311 | Splash Screen com.aretherecookies#0
+07-28 10:30:06.582 14560 14560 V fb-UnpackingSoSource: locked dso store /data/user/0/com.aretherecookies/lib-main
+07-28 10:30:06.583 14560 14560 I fb-UnpackingSoSource: dso store is up-to-date: /data/user/0/com.aretherecookies/lib-main
+07-28 10:30:06.583 14560 14560 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.aretherecookies/lib-main
+07-28 10:30:06.611   765   765 I SurfaceFlinger:      Device | 0x758bbc0c00 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |    0    0 1440 2560 | Splash Screen com.aretherecookies#0
+07-28 10:30:06.686 14560 14560 I zygote  : Thread[1,tid=14560,Native,Thread*=0xef074000,peer=0x72e0d550,"main"] recursive attempt to load library "/data/app/com.aretherecookies-qaWkPl_IVjWwuIXIJYqAJQ==/lib/arm/libfb.so"
+07-28 10:30:06.782   765   765 I SurfaceFlinger: id=154 createSurf (1440x2560),1 flag=404, com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:30:06.822 14560 14560 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@8cdb85f nm : com.aretherecookies ic=null
+07-28 10:30:06.823  3836 10267 V InputMethodManagerService: windowGainedFocus : reason=WINDOW_FOCUS_GAIN client=android.os.BinderProxy@d55d072 inputContext=null missingMethods= attribute=android.view.inputmethod.EditorInfo@c65996c nm = com.aretherecookies controlFlags=#104 softInputMode=#110 windowFlags=#81810100
+07-28 10:30:06.828 14560 14560 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@b43db75 nm : com.aretherecookies ic=null
+07-28 10:30:06.841 14560 14636 D libGLESv1: STS_GLApi : DTS, ODTC are not allowed for Package : com.aretherecookies
+07-28 10:30:06.883  3836  4840 D ViewRootImpl@eeab2b9[aretherecookies]: dispatchDetachedFromWindow
+07-28 10:30:06.883  3836  4840 D InputEventReceiver: channel '78a6fe Splash Screen com.aretherecookies (client)' ~ Disposing input event receiver.
+07-28 10:30:06.883  3836  4840 D InputEventReceiver: channel '78a6fe Splash Screen com.aretherecookies (client)' ~NativeInputEventReceiver.
+07-28 10:30:06.894  3836  4186 I ActivityManager: Displayed com.aretherecookies/.MainActivity: +803ms
+07-28 10:30:06.926   765   765 I SurfaceFlinger:      Device | 0x758da39280 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |    0    0 1440 2560 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:30:06.926   765   765 I SurfaceFlinger:      Device | 0x758bbc0c00 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |    0    0 1440 2560 | Splash Screen com.aretherecookies#0
+07-28 10:30:07.057   765   862 I SurfaceFlinger: id=153 Removed Splash Screen com.aretherecookies#0 (4/5)
+07-28 10:30:07.059   765   765 I SurfaceFlinger:      Device | 0x758da39280 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |    0    0 1440 2560 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:30:07.066   765  2555 I SurfaceFlinger: id=153 Removed Splash Screen com.aretherecookies#0 (-2/5)
+07-28 10:30:07.073   765   765 I Layer   : id=153 onRemoved Splash Screen com.aretherecookies#0
+07-28 10:30:08.472  3836  5566 D LocationManagerService: request c8a32ef network Request[POWER_LOW network requested=0 fastest=0 num=1] from com.aretherecookies(10314 foreground)
+07-28 10:30:08.480  5357  5408 D ListenerMonitor_FLP: addListener, packageName : com.aretherecookies , listener count : 1
+07-28 10:30:08.483  5357  5408 E RequestManager_FLP: [LocationManagerService] Location request c8a32ef network interval=0 from com.aretherecookies
+07-28 10:30:10.488  5357  5408 D ListenerMonitor_FLP: removeListener, packageName : com.aretherecookies , listener count : 0
+07-28 10:30:10.491  5357  5408 E RequestManager_FLP: [LocationManagerService] Location remove c8a32ef from com.aretherecookies
+07-28 10:30:34.067 14965 14965 I oneconnect[1.7.11-25_03]: Util.isQcTopProcess - false [package]com.samsung.android.oneconnect [topProcess]com.aretherecookies
+07-28 10:30:49.443  3836 16968 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainActivity does not exist in mServices
+07-28 10:30:49.443  3836 16968 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainActivity does not exist in mProviders
+07-28 10:30:49.443  3836 16968 D PackageManager: getComponentMetadataForIconTray : com.aretherecookies.MainActivity does not exist in mReceivers
+07-28 10:30:49.444  5181  5229 D ApplicationPackageManager: updateItemMetaDataForFixedIconScale: package: com.aretherecookies
+07-28 10:30:49.444  3836 16968 D PackageManager: getSelectedMetaData : packageName(com.aretherecookies) or Metadata strings {[Ljava.lang.String;@b75b935}
+07-28 10:30:49.444  5181  5229 I ApplicationPackageManager: load=com.aretherecookies, bg=144-144, dr=192-192, forDefault=true, density=0
+07-28 10:30:49.447  5181  5229 I ApplicationPackageManager: load=com.aretherecookies-crop, bg=192-192, dr=192-192
+07-28 10:30:49.509   765   765 I SurfaceFlinger:      Device | 0x758da39580 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |    5   10 1434 2551 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:30:49.756   765   858 I SurfaceFlinger: id=154 Removed com.aretherecookies/com.aretherecookies.MainActivity#0 (4/5)
+07-28 10:30:49.760   765  2697 I SurfaceFlinger: id=154 Removed com.aretherecookies/com.aretherecookies.MainActivity#0 (-2/5)
+07-28 10:30:49.771   765   765 I Layer   : id=154 onRemoved com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:32:02.888  3836  4880 D InputDispatcher: InputChannel(20): channelName='7972940 com.aretherecookies/com.aretherecookies.MainActivity (server)', windowName='Window{7972940 u0 com.aretherecookies/com.aretherecookies.MainActivity}', fd='494', p='0x7a66b342e0'
+07-28 10:32:02.889  3836  4880 D InputDispatcher: InputChannel(20): channelName='7972940 com.aretherecookies/com.aretherecookies.MainActivity (server)', windowName='Window{7972940 u0 com.aretherecookies/com.aretherecookies.MainActivity}', fd='494', p='0x7a66b342e0'
+
+//Switched back to the app (in places tab)
+07-28 10:38:42.848  5181  5181 D StatusBar: addNotification key=0|com.google.android.apps.playconsole|0|APP_GO_LIVE_8056521882824614812_com.aretherecookies|10226 fullscreen:false
+07-28 10:38:57.391  6808  6808 D Notification.Badge: [filtered] shouldBeFilteredOut().isGroupHeader[true], missingTitleAndText[true], [sbn : StatusBarNotification(pkg=com.google.android.apps.playconsole user=UserHandle{0} id=0 tag=APP_GO_LIVE_8056521882824614812_com.aretherecookies key=0|com.google.android.apps.playconsole|0|APP_GO_LIVE_8056521882824614812_com.aretherecookies|10226: Notification(channel=null pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x200 color=0x00000000 groupKey=0::APP_GO_LIVE_8056521882824614812_com.aretherecookies number=0 vis=PRIVATE publicVersion=Notification(channel=null pri=0 contentView=com.google.android.apps.playconsole/0x10900a4 vibrate=null sound=null defaults=0x0 flags=0x0 color=0x00000000 number=0 vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0) semFlags=0x0 semPriority=0 semMissedCount=0))]
+07-28 10:39:00.781  5181  5181 D SystemUIAnalytics: sendEventLog 500, 5101, com.aretherecookies, 2
+07-28 10:39:00.850  3836  7278 D MARsPolicyManager: onPackageResumedFG pkgName = com.aretherecookies, userId = 0
+07-28 10:39:00.850  3836  5004 D GameManagerService: handleForegroundChange(). pkgName: com.aretherecookies, clsName: com.aretherecookies.MainActivity,FgActivityName:com.aretherecookies/.MainActivity
+07-28 10:39:00.850  3836  5004 D GameManagerService: notifyResumePause(). pkg: com.aretherecookies, type: 4, isMinimized: false, isTunableApp: false
+07-28 10:39:00.881  3836  7284 V WindowManager: Relayout Window{7972940 u0 com.aretherecookies/com.aretherecookies.MainActivity}: viewVisibility=4 req=1440x2560 WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=1 fl=#81810900 wanim=0x10302fd vsysui=0x600 needsMenuKey=2 colorMode=0 naviIconColor=0}
+07-28 10:39:00.905  3836  9457 D GamePkgDataHelper: getGamePkgDataIncServer(). com.aretherecookies
+07-28 10:39:00.905  3836  9457 D GameManagerService: identifyGamePackage. com.aretherecookies
+07-28 10:39:00.906  3836  9457 D GamePkgDataHelper: getGamePkgData(). com.aretherecookies
+07-28 10:39:00.908  3836  9457 D GameManagerService: identifyGamePackage. com.aretherecookies
+07-28 10:39:00.908  3836  9457 D GamePkgDataHelper: getGamePkgData(). com.aretherecookies
+07-28 10:39:00.909  3836  9457 D GameManagerService: identifyGamePackage. com.aretherecookies
+07-28 10:39:00.909  3836  9457 D GamePkgDataHelper: getGamePkgData(). com.aretherecookies
+07-28 10:39:00.930  3836  9457 D GameManagerService: identifyGamePackage. com.aretherecookies
+07-28 10:39:00.930  3836  9457 D GamePkgDataHelper: getGamePkgData(). com.aretherecookies
+07-28 10:39:00.931  3836  9457 D GameManagerService: identifyGamePackage. com.aretherecookies
+07-28 10:39:00.931  3836  9457 D GamePkgDataHelper: getGamePkgData(). com.aretherecookies
+07-28 10:39:00.982  3836  7278 V WindowManager: Relayout Window{7972940 u0 com.aretherecookies/com.aretherecookies.MainActivity}: viewVisibility=0 req=1440x2560 WM.LayoutParams{(0,0)(fillxfill) sim=#110 ty=1 fl=#81810900 wanim=0x10302fd vsysui=0x600 needsMenuKey=2 colorMode=0 naviIconColor=0}
+07-28 10:39:00.983   765   765 I SurfaceFlinger: id=217 createSurf (1440x2560),1 flag=404, com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:39:01.032  3836  4885 D MdnieScenarioControlService:  packageName : com.aretherecookies    className : com.aretherecookies.MainActivity
+07-28 10:39:01.082  3836  3864 V WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{7972940 u0 com.aretherecookies/com.aretherecookies.MainActivity} in Surface(name=com.aretherecookies/com.aretherecookies.MainActivity)
+07-28 10:39:01.102 14560 14560 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@13c62cc nm : com.aretherecookies ic=null
+07-28 10:39:01.105  3836  3864 V InputMethodManagerService: windowGainedFocus : reason=WINDOW_FOCUS_GAIN client=android.os.BinderProxy@d55d072 inputContext=null missingMethods= attribute=android.view.inputmethod.EditorInfo@59f4d33 nm = com.aretherecookies controlFlags=#104 softInputMode=#110 windowFlags=#81810900
+07-28 10:39:01.108   765   765 I SurfaceFlinger:      Device | 0x7588aa8200 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |   18   59 1423 2557 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:39:01.274   765   765 I SurfaceFlinger:      Device | 0x7588aa8200 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |    0    1 1439 2560 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:39:01.309   765   765 I SurfaceFlinger:      Device | 0x7588bb3500 | 0002 | RGBA_8888 |   0.0    0.0 1440.0 2560.0 |    0    0 1440 2560 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:39:06.911  3836  9457 D GameManagerService: identifyGamePackage. com.aretherecookies
+07-28 10:39:06.912  3836  9457 D GamePkgDataHelper: getGamePkgData(). com.aretherecookies
+07-28 10:39:30.717 14560 14560 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@2986915 nm : com.aretherecookies ic=null
+07-28 10:39:31.620  5436  5436 D NfcService: Top activity class name = com.aretherecookies.MainActivity
+07-28 10:39:35.834  3836 10915 V WindowManager: Relayout Window{7972940 u0 com.aretherecookies/com.aretherecookies.MainActivity}: viewVisibility=8 req=1440x2560 WM.LayoutParams{(0,0)(fillxfill) sim=#110 ty=1 fl=#81810900 wanim=0x10302fd vsysui=0x600 needsMenuKey=2 colorMode=0 naviIconColor=0}
+07-28 10:39:35.835  3836 10915 I WindowManager: Destroying surface Surface(name=com.aretherecookies/com.aretherecookies.MainActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2501 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:985 com.android.server.wm.WindowState.destroyOrSaveSurfaceUnchecked:3679 com.android.server.wm.WindowState.destroySurface:3627 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:2677 com.android.server.wm.WindowManagerService.relayoutWindow:2461 com.android.server.wm.Session.relayout:253 android.view.IWindowSession$Stub.onTransact:288
+07-28 10:39:35.836   765  2555 I SurfaceFlinger: id=217 Removed com.aretherecookies/com.aretherecookies.MainActivity#0 (2/6)
+07-28 10:39:35.837   765   862 I SurfaceFlinger: id=217 Removed com.aretherecookies/com.aretherecookies.MainActivity#0 (-2/6)
+07-28 10:39:35.853   765   765 I Layer   : id=217 onRemoved com.aretherecookies/com.aretherecookies.MainActivity#0
+
+//Switched on Food tab
+07-28 10:40:55.131  3836  9457 D GamePkgDataHelper: getGamePkgData(). com.aretherecookies
+07-28 10:40:55.231  5436  5436 D NfcService: Top activity class name = com.aretherecookies.MainActivity
+07-28 10:40:56.449  3836  9457 D GameManagerService: identifyGamePackage. com.aretherecookies
+07-28 10:40:56.449  3836  9457 D GamePkgDataHelper: getGamePkgData(). com.aretherecookies
+07-28 10:40:57.921  3836  9733 D MARsPolicyManager: onPackageResumedFG pkgName = com.aretherecookies, userId = 0
+07-28 10:40:57.922  3836  5004 D GameManagerService: handleForegroundChange(). pkgName: com.aretherecookies, clsName: com.aretherecookies.MainActivity,FgActivityName:com.aretherecookies/.MainActivity
+07-28 10:40:57.959  3836  7287 V WindowManager: Relayout Window{7972940 u0 com.aretherecookies/com.aretherecookies.MainActivity}: viewVisibility=0 req=1440x2560 WM.LayoutParams{(0,0)(fillxfill) sim=#110 ty=1 fl=#81810900 wanim=0x10302fd vsysui=0x600 needsMenuKey=2 colorMode=0 naviIconColor=0}
+07-28 10:40:57.961   765   765 I SurfaceFlinger: id=222 createSurf (1440x2560),1 flag=404, com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:40:58.049  3836 10707 V WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{7972940 u0 com.aretherecookies/com.aretherecookies.MainActivity} in Surface(name=com.aretherecookies/com.aretherecookies.MainActivity)
+07-28 10:40:58.085  3836  3836 D MdnieScenarioControlService:  packageName : com.aretherecookies    className : com.aretherecookies.MainActivity
+07-28 10:40:58.128   765   765 I SurfaceFlinger:      Device | 0x758da39280 | 0002 | RGBA_8888 | 196.0  349.0 1244.0 2212.0 |    0    0 1440 2560 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:40:58.136 14560 14560 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@627542a nm : com.aretherecookies ic=null
+07-28 10:40:58.292   765   765 I SurfaceFlinger:      Device | 0x758da39200 | 0002 | RGBA_8888 |  19.0   35.0 1420.0 2526.0 |    0    0 1440 2560 | com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:41:01.133  3836  9457 D GameManagerService: identifyGamePackage. com.aretherecookies
+07-28 10:41:01.133  3836  9457 D GamePkgDataHelper: getGamePkgData(). com.aretherecookies
+07-28 10:41:19.298 14560 14560 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@b4a0bef nm : com.aretherecookies ic=null
+07-28 10:41:20.121  3836  6749 V WindowManager: Relayout Window{7972940 u0 com.aretherecookies/com.aretherecookies.MainActivity}: viewVisibility=8 req=1440x2560 WM.LayoutParams{(0,0)(fillxfill) sim=#110 ty=1 fl=#81810900 wanim=0x10302fd vsysui=0x600 needsMenuKey=2 colorMode=0 naviIconColor=0}
+07-28 10:41:20.121  3836  6749 I WindowManager: Destroying surface Surface(name=com.aretherecookies/com.aretherecookies.MainActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2501 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:985 com.android.server.wm.WindowState.destroyOrSaveSurfaceUnchecked:3679 com.android.server.wm.WindowState.destroySurface:3627 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:2677 com.android.server.wm.WindowManagerService.relayoutWindow:2461 com.android.server.wm.Session.relayout:253 android.view.IWindowSession$Stub.onTransact:288
+07-28 10:41:20.122   765  2555 I SurfaceFlinger: id=222 Removed com.aretherecookies/com.aretherecookies.MainActivity#0 (2/6)
+07-28 10:41:20.122   765  2555 I SurfaceFlinger: id=222 Removed com.aretherecookies/com.aretherecookies.MainActivity#0 (-2/6)
+07-28 10:41:20.129   765   765 I Layer   : id=222 onRemoved com.aretherecookies/com.aretherecookies.MainActivity#0
+07-28 10:41:20.230  5436  5436 D NfcService: Top activity class name = com.aretherecookies.MainActivity
