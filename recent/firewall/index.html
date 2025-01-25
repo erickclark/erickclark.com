@@ -85,16 +85,28 @@
             <div class="row">
                 <div class="col-md-10">
                     <h2>Firewall Policies and Rules</h2>
+
+                    <!-- <h3>TL;DR</h3>
+                    <p>
+                        I worked on the UX of firewall polices and rules while working at Infoblox, which offers SaaS enterprise products for 
+                        IT automation and cybersecurity. I conducted user research by leveraging internal knowledge, I worked closely with 
+                        product management to define UX requirements and took an iterative approach to designing the UX, reviewing mockups 
+                        both internally and externally. <br />
+                        <a href="#mockups">Skip to the mockups</a> 
+                    </p>
+                    <h3>The Longer Version</h3>
+                    -->
                     <p>
                         Infoblox offers SaaS enterprise products for IT automation and cybersecurity. These products allow IT 
                         administrators to configure and manage servers that run software to enable DNS and DHCP services. 
                     </p>
                     <p>
-                        The company decided to expand its product offering to include a next generation firewall service. 
-                        With this servics installed on an Infoblox server, the customer could monitor and control all 
-                        network traffic between their local network and the internet. The controlling of the traffic was 
-                        done through firewall policies, which allow administrators to block specific types of 
-                        traffic based on a set of rules. Some common use cases for firewall policies are:
+                        The first product I worked on at Infoblox was designing software that runs on edge routers, the routers that 
+                        operate at the edge of a corporate network and connect directly to an internet service provider. One of the many features 
+                        of this product was a next generation firewall service. With this service installed on an Infoblox appliance, 
+                        the customer could monitor and control all network traffic between their local network and the internet. The 
+                        controlling of the traffic was done through firewall policies, which allow administrators to block specific types 
+                        of traffic based on a set of rules. Some common use cases for firewall policies are:
                     <ul>
                         <li><strong class="semi">Blocking inappropriate content</strong> - 
                         Example: Per company policy employees are not allowed to watch Netflix, Hulu or other streaming services on the company network</li> 
@@ -120,20 +132,9 @@
                         forwarding, routing protocols and site- to- site VPN connections. 
                     </p>
 
-                    <h3>Project Goals</h3>
-                    <p>
-                        The goals for the firewall policy feature were:
-                        <ul>
-                            <li>The firewall policy feature was geared towards IT admins at small- to medium-sized companies 
-                                where the admin might not be an expert at networking</li> 
-                            <li>The feature needed to allow administrators to define what internet traffic is allowed or denied and for whom (or what device)</li> 
-                            <li>A policy, defined as a groups of rules, should be deployable to many Infoblox Appliances (create once, deploy everywhere)</li> 
-                        </ul>
-                    </p>
-
                     <h3>Research</h3>
                     <p>
-                        When I joined the project, software engineering work was already underway. There was little time to conduct any formal research. I relied 
+                        Since software engineering work was already underway, there was little time to conduct any formal research. I relied 
                         heavily on internal company knowledge. I met with several groups within Infoblox to gather information and review design concepts.
                         <ul>
                             <li><strong class="semi">Product Management</strong> - The product manager for this new product had worked as a network engineer for many years and had extensive 
@@ -142,6 +143,27 @@
                             <li><strong class="semi">Technical Advisory Board</strong> - The product manager and I reviewed the overall approach of using policies and rules with a technical advisory board that comprised IT admins from several of Infoblox's customers.</li>
                             <li><strong class="semi">Competitive Reviews</strong> - I reviewed competing products to get an understanding of what the existing UX conventions were for this type of 
                                 administration software</li>
+                        </ul>
+                    </p>
+
+                    <h3>Problem Statements</h3>
+                    <p>
+                        The goals for the firewall policy feature were:
+                        <ul>
+                            <li>In competing products, typically firewall rules require the user know a lot of information up front, i.e source and/or destination IP, port and protocol</li> 
+                            <li>IT administrators at small to medium size companies may not have a lot of experience or training setting up firewall rules</li> 
+                            <li>Applying rules to many edge routers can be tedious and repetitive </li> 
+                        </ul>
+                    </p>
+
+                    <h3>Project Goals</h3>
+                    <p>
+                        The goals for the firewall policy feature were:
+                        <ul>
+                            <li>Firewall rules should be grouped into Firewall Policies, for easier management</li> 
+                            <li>A Firewall Policy should be deployable to many Infoblox Appliances (create once, deploy everywhere)</li> 
+                            <li>The UX should be easy to use for IT administrators without much experience creating firewall rules</li> 
+                            <li>Infoblox should aid the user by providing lists of common destinations to allow or deny, but still provide more expert settings</li>
                         </ul>
                     </p>
                 </div>
@@ -167,72 +189,72 @@
                     </p>
 
                 </div>
-                <div class="col-sm-7 project-thumbnails">
+                <div class="col-sm-7 project-thumbnails" id="mockups">
                     <div class="row">
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/policies.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/policies.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/policies.png" alt="">
+                                <img class="img-responsive" src="img/policies.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/policy-detials.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/policy-detials.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/policy-detials.png" alt="">
+                                <img class="img-responsive" src="img/policy-detials.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/create-policy.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/create-policy.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/create-policy.png" alt="">
+                                <img class="img-responsive" src="img/create-policy.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/cp-help.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/cp-help.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/cp-help.png" alt="">
+                                <img class="img-responsive" src="img/cp-help.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/cp-no-rules.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/cp-no-rules.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/cp-no-rules.png" alt="">
+                                <img class="img-responsive" src="img/cp-no-rules.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/cp-name-type.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/cp-name-type.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/cp-name-type.png" alt="">
+                                <img class="img-responsive" src="img/cp-name-type.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/cp-user-groups.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/cp-user-groups.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/cp-user-groups.png" alt="">
+                                <img class="img-responsive" src="img/cp-user-groups.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/cp-websites-apps.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/cp-websites-apps.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/cp-websites-apps.png" alt="">
+                                <img class="img-responsive" src="img/cp-websites-apps.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/cp-rule-created.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/cp-rule-created.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/cp-rule-created.png" alt="">
+                                <img class="img-responsive" src="img/cp-rule-created.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/cp-summary.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/cp-summary.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/cp-summary.png" alt="">
+                                <img class="img-responsive" src="img/cp-summary.png?1" alt="">
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <a class="project-thumb" href="img/policy-created.png" data-fancybox="Assets" 
+                            <a class="project-thumb" href="img/policy-created.png?1" data-fancybox="Assets" 
                                 data-caption="">
-                                <img class="img-responsive" src="img/policy-created.png" alt="">
+                                <img class="img-responsive" src="img/policy-created.png?1" alt="">
                             </a>
                         </div>
                     </div>
@@ -241,9 +263,11 @@
             
             <div class="row next-prev">
                 <div class="col-sm-6">
-
+                    <a href="../index.html">
+                        <span class="icon-circle-left"></span> Recent Work</a>
                 </div>
                 <div class="col-sm-6 text-right">
+
                 </div>
             </div>
 

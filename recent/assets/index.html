@@ -86,8 +86,8 @@
                 <div class="col-md-10">
                     <h2>Network Asset Inventory Software </h2>
                     <p>
-                        Infoblox offers SaaS enterprise products for IT automation and cybersecurity. Infoblox’s senior management spotted an opportunity to 
-                        develop a new product that would provide detailed information about the devices (also known as assets) on their customers’ networks, 
+                        Infoblox offers SaaS enterprise products for IT automation and cybersecurity. Infoblox's senior management spotted an opportunity to 
+                        develop a new product that would provide detailed information about the devices (also known as assets) on their customers' networks, 
                         both in the cloud and on- premises. The purpose of this new product is for incident response and auditing. 
                     </p>
 
@@ -115,19 +115,19 @@
                             <li>An MVP needed to be delivered in four months </li>
                         </ul>
                     </p>
-                    The use cases that needed to be addressed in the new product were:
+                    The use cases that needed to be addressed in the new product included:
                     <ul>
                         <li><strong class="semi">Troubleshooting and Incident Response</strong> - 
                             Example: an IP address has been identified sending network traffic to an internet server associated with malware. Admins need a tool 
-                            for looking up what devices has that IP address been assigned to and when, and where those devices are located</li>
+                            for looking up what devices that IP address has been assigned to and when, and where those devices are located</li>
                         <li><strong class="semi">Auditing</strong> - 
-                            Example: Determining attack surface by finding devices that have out of date operating systems or are known to be easily hacked (IoT)
+                            Example: Determining attack surface by compiling a list of devices that have out of date operating systems or are known to be easily hacked (IoT)
                         </li>
                     </ul>
 
                     <h3>Research</h3>
                     <p>
-                        Given the short amount of time the team had to work with, no generative research was conducted instead relying on internal knowledge and 
+                        Given the short amount of time I had to work with, no generative research was conducted instead relying on internal knowledge and 
                         reviews of competing products. I met with several groups within Infoblox to gather information and review design concepts.
                         <ul>
                             <li><strong class="semi">Product Management</strong> -
@@ -138,7 +138,7 @@
                                 The company's own network engineers and administrators provided valuable insight into what they saw as necessary features</li>
                             <li>
                                 <strong class="semi">Infoblox's Professional Services Team</strong> -
-                                Subject matter experts who have worked in IT and in depth knowledge of the pain points of their customers
+                                Subject matter experts who have worked in IT and possess an in depth knowledge of the pain points of Infoblox's customers
                             </li>
                         </ul>
 
@@ -147,9 +147,9 @@
                     <p>
                         My process for creating the design of the asset inventory software was iterative. I worked within the limitations of Infoblox's 
                         existing pattern and component system. This meant that I could quickly put together high fidelity mockups by leveraging the UX team's existing 
-                        Adobe XD UI kit, but due to time constraints, I couldn't update or create new patterns and components. I set up weekly review meetings 
+                        UI kit, but due to time constraints, I couldn't update or create new patterns and components. I set up weekly review meetings 
                         with product managers, SMEs and key members of the engineering team to brainstorm and get feedback. Features I designed were broken up 
-                        into feature stories by the product managers, as part of the Scaled Agile process. 
+                        into feature stories by the product managers, as part of the Scaled Agile Framework process. 
                     </p>
                     <p>
                         The design mockups were tested to both evaluate the usability of the UX and to gather feedback about potential gaps in functionality. 
@@ -160,10 +160,30 @@
             </div>
             <div class="row">
                 <div class="col-sm-5">
+                    <h3>Process Flows</h3> 
+                    The functionality required for the asset inventory system includes both the import of the data, referred to as Asset Discovery, and 
+                	viewing of summary and detailed data about assets on a customer's networks. Users are also required to create sets of credentials to allow the
+                	discovery process to communicate with the cloud platform (AWS, Azure, Google Cloud). The process diagrams shown here represent the high level
+                    process flows for the three processes. 
+                </div>
+                <div class="col-sm-7 project-thumbnails">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a class="project-thumb" href="img/process-flow.png" data-fancybox="Assets" 
+                            data-caption="A diagram showing the process flow of the Asset Discovery process and teh Asset Inventory screen flow">
+                            <img class="img-responsive" src="img/process-flow.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5">
                     <h3>Wireframes</h3> 
                     <p>
-                        In order to maintain the confidentiality of the work, the designs shown here are not the actual mockups created for this project. 
-                        What's presented here are wireframes that demonstrate a similar approach to solving the same problems.
+                        For the sake of this presentation, I've focused on the Dashboard and Inventory screens from the process flows above. In order to 
+                        maintain the confidentiality of the work, the designs shown here are not the actual mockups created for this project. What's 
+                        presented here are wireframes that demonstrate a similar approach to solving the same problems.
                     </p>
                     <p>
                         <h4>Dashboard</h4>
@@ -191,14 +211,13 @@
                             <a class="project-thumb" href="img/dashboard.png" data-fancybox="Assets" 
                                 data-caption="The dashboard provides summary information about the assets in the system and has a View menu to switch between the All Assets View, 
                                 Cloud View and On-Prem View.">
-                                <img class="img-responsive" src="img/dashboard.png" alt="">
+                                <img class="img-responsive" src="img/dashboard.png" alt=""> 
                             </a>
-                        </div>
-                        <div class="col-xs-6">
-                            <a class="project-thumb" href="img/inventory.png" data-fancybox="Assets" 
+
+                            <a class="project-thumb" href="img/filter-set2.png" data-fancybox="Assets" 
                                 data-caption="The Inventory section shows the asset data as a table, with options to search, sort, filter and download the data. The View dropdown 
                                 menu is available at the top here as well.">
-                                <img class="img-responsive" src="img/inventory.png" alt="">
+                                <img class="img-responsive" src="img/filter-set2.png" alt="">
                             </a>
                         </div>
                         <div class="col-xs-6">
@@ -208,8 +227,7 @@
                                 asset attributes or enter a plain text search into the filter area which would search on all the attributes. ">
                                 <img class="img-responsive" src="img/filter-set.png" alt="">
                             </a>
-                        </div>
-                        <div class="col-xs-6">
+
                             <a class="project-thumb" href="img/asset-details.png" data-fancybox="Assets" 
                                 data-caption="A details panel of an asset is available when the user clicks on a table row. The slide-out panel allows users to click on one asset name 
                                 after another and quickly learn the full set of attributes of each asset.">
@@ -222,9 +240,11 @@
             
             <div class="row next-prev">
                 <div class="col-sm-6">
-                   
+                    <a href="../index.html">
+                        <span class="icon-circle-left"></span> Recent Work</a>
                 </div>
                 <div class="col-sm-6 text-right">
+
                 </div>
             </div>
 
