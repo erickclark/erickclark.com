@@ -54,35 +54,49 @@
 h1 {
   font-weight: 700;
   margin-left: -4px;
-  margin-bottom: 34px;
+  margin-bottom: 36px;
 }
 #home h1 {
+  font-size: 64px;
   line-height: .8;
+  margin-bottom: 12px;
 }
 h1 .green {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
-  padding-left: 7px;
 }
 h2 {
   margin-top: 6px;
   margin-bottom: 6px;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
 }
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 }
 h4 {
   font-weight: 700;
 }
-
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 9px;
+  line-height: 1.4;
+}
+.description {
+  margin-bottom: 36px;
+}
+#home h2 {
+  margin-top: 18px;
+}
 #home h3,
 #portfolio h2 {
   margin-top: 0;
 }
-.contact {
+.contact, 
+.recent {
   padding-top: 16px;
   padding-bottom: 16px;
 } 
@@ -100,10 +114,6 @@ h4 {
 }
 hr {
 	border-top: 1px solid #ddd;
-}
-.recent {
-  background-color: #fff;
-  
 }
 .green {
 	color: #690;
@@ -127,6 +137,7 @@ hr {
   background-color: #333;
   color: #fff;
 }
+
 .gray2 a, 
 .gray3 a,
 .gray4 a,
@@ -136,19 +147,22 @@ hr {
 .noPadding {
   padding-right: 0;
 }
-.project-image {
-  width: 570px;
-  height: 286px;
+.bar {
+  border-top: 1px solid #ccc;
+  padding-bottom: 36px;
 }
-.portfolio .project-image {
-  width: 470px;
-  height: 236px;
+.project-image {
+  width: 375px;
+  height: 188px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 #portfolio .gray1,
 #process .gray1,
 #resume .gray1,
 #about .gray1 {
-  padding: 36px 0;
+  padding: 24px 0;
 }
 strong.semi {
   font-weight: 600;
@@ -245,23 +259,8 @@ strong.semi {
   border: 1px solid #ddd;
 }
 
-.projects-nav .slick-slide {
-  margin: 0 24px 6px 0;
-  -webkit-transition: -webkit-box-shadow .4s, margin .4s; /* Safari */
-  transition: box-shadow .4s, margin .4s;
-}
-.projects-nav .slick-on {
-  margin: -4px 28px 10px -4px;
-  -webkit-box-shadow: 4px 4px 6px 0px rgba(50, 50, 50, 0.3);
-  -moz-box-shadow:    4px 4px 6px 0px rgba(50, 50, 50, 0.3);
-  box-shadow:         4px 4px 6px 0px rgba(50, 50, 50, 0.3);
-}
 .project-description {
-  margin-bottom: 8px;
-}
-.slick-on:focus,
-.slick-on:active {
-  outline: none;
+  margin-bottom: 4px;
 }
 
 .filter-button-group button {
@@ -295,39 +294,21 @@ strong.semi {
 
 @media only screen and (max-width : 1200px) {
   .project-image {
-    height: 236px;
-    width: 470px;
-    float: right;
+    height: 195px;
+    width: 389px;
   }
   .homeSection {
     min-height: 304px;
   }
-  .portfolio .project-image {
-    height: 195px;
-    width: 389px;
-  }
 }
 @media only screen and (max-width : 992px) {
-  h1 {
-		font-size: 96px;
-    margin-left: 0;
-  }
   #resume h1 {
     font-size: 72px;
   }
-  h1 .green {
-    font-size: 56px;
-    font-weight: 700;
-    padding-left: 0;
-  }
-	h2 {
-		font-size: 36px;
-	}
   #portfolio .gray1 {
     padding: 16px 0 8px;
   }
-  .project-image,
-  .portfolio .project-image {
+  .project-image {
     height: 181px;
     width: 360px;
   }
@@ -366,8 +347,7 @@ strong.semi {
 	.navbar-brand  {
 		font-size: 16px;
   }
-  .project-image,
-  .portfolio .project-image {
+  .project-image {
     height: auto;
     width: 100%;
   }
@@ -378,14 +358,22 @@ strong.semi {
   .homeSection {
     min-height: auto;
   }
+  .noPadding {
+    padding-right: 15px;
+  }
 }
 @media only screen and (max-width : 630px) {
   h1 {
-    font-size: 48px;
+    font-size: 32px;
     margin-top: 8px;
     margin-bottom: 34px;
   }
-  h1 .green {
+  #home h1 {
+    font-size: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  #home h1 .green {
     font-size: 20px;
     font-weight: 700;
     padding-left: 0;
