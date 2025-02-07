@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected Site"
+AuthUserFile /home3/erick/public_html/.htpasswd
+require valid-user
