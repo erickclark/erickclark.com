@@ -1,14 +1,11 @@
-Options +FollowSymLinks -MultiViews
-RewriteEngine On
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^r/(.*)$ index.php?slug=$1 [L,QSA]
-ErrorDocument 404 /404.html
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^r/(.*)$ index.php?slug=$1 [L,QSA]
+ErrorDocument 404 /404.html
 ErrorDocument 403 /403.html
-RewriteCond %{HTTP_HOST} ^erickclark\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.erickclark\.com$
-RewriteRule ^portfolio\.html$ "https\:\/\/erickclark\.com\/" [R=301,L]
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php82” package as the default “PHP” programming language.
