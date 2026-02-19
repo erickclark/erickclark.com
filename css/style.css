@@ -232,33 +232,6 @@ strong.semi {
   border: 1px solid #f2ac66;
   margin-top: 24px;
 }
-/* Slick Slider Stuff */
-.projects-nav {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 341px;
-}
-.projects-nav .slick-slide:nth-child(1) {
-  padding-left: 1px;
-}
-.projects-nav .slick-track {
-  padding-top: 4px;
-}
-.projects-nav div img {
-  height: 48px;
-  width: 48px;
-  border: 2px solid #c60;
-  cursor: pointer;
-}
-.projects h2 {
-  margin-top: 0;
-} 
-.projects img {
-  border: 1px solid #ddd;
-}
-
 .project-description {
   margin-bottom: 4px;
 }
